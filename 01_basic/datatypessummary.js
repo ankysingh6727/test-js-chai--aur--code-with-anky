@@ -17,8 +17,32 @@ let myFunctions=function(){
     console.log("hello wrold");
     
 }
-console.log(typeof inNum);
-console.log(typeof outSide);
-console.log(typeof score);
-console.log(typeof myFunctions);
-console.log(typeof heros);
+// console.log(typeof inNum);
+// console.log(typeof outSide);
+// console.log(typeof score);
+// console.log(typeof myFunctions);
+// console.log(typeof heros);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ // stack,heap 
+ // stack memory=Primitive
+ let myAcountId="ankita shahi"
+ let mySecondId=myAcountId
+ mySecondId="Rima Singh"
+ console.log(mySecondId);
+ console.log(myAcountId);
+ 
+
+ //heap memory=non -Primitive
+ let useFirst={ name:"ankita shahi",
+    age:32,
+    upi:"anky123"
+
+ }
+ let userSecond=useFirst
+ userSecond.upi="charisingh123"
+ console.log(userSecond.upi);
+ console.log(useFirst.upi);
+ 
+
