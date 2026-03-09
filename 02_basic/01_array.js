@@ -30,6 +30,33 @@ myarr.slice(2,3)
 //slice and splice
 
 
+const inhero=["sarukh", "shahid","ramcharn"]
+const suthero=["mehashbabu","parbhash","junior ntr"]
+//inhero.push(suthero)
+//console.log(inhero);
+//console.log(inhero[3][1]);
+ const newHero= inhero.concat(suthero);
+//console.log(newHero);
+const allHero=[...inhero,...suthero]
+//console.log(allHero);
+const anotherarr=[1,2,3,[4,5,[6,7,[9]]]]
+const real_another=anotherarr.flat(Infinity)
+//console.log(real_another);
+//console.log(Array.isArray("ankita"));
+//console.log(Array.from("ankita"));
+//console.log(Array.from({name:"ankita"}));
+let score1=100;
+let score2=200;
+let score3=300;
+console.log(Array.of(score1,score2,score3));
+
+
+
+
+
+
+
+
 
 
 
