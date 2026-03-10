@@ -28,4 +28,25 @@ function userLoggedIN(username="rima"){
 return(`${username} just loggedIn `)
 }
 //console.log(userLoggedIN("ankita shahi"))
-console.log(userLoggedIN("anky"))
+//console.log(userLoggedIN("anky"))
+function calcutateCartPrice(val1,val2,...num1){
+    return num1
+}
+//console.log(calcutateCartPrice(100,200,600,300))
+let User={
+    name:"ankita shahi",
+    age:24,
+    Email:"anky567"
+
+}
+function handleobject (anyobject){
+    console.log(` user name is ${anyobject.name} and user Email is ${anyobject.Email} `)
+
+}
+handleobject(User)
+const myArray=[100,300,500,600]
+function  resturnSecondValue (getarray){
+    return(getarray[2])
+}
+//console.log(resturnSecondValue(myArray));
+console.log(resturnSecondValue(User));
