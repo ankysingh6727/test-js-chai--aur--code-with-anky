@@ -24,8 +24,27 @@
  //console.log(obje4);
  
 
- console.log(Object.keys(tinderUser))
- console.log(Object.values(tinderUser));
- console.log(Object.entries(tinderUser));
- console.log(tinderUser.hasOwnProperty('email'));
+// //  console.log(Object.keys(tinderUser))
+//  console.log(Object.values(tinderUser));
+//  console.log(Object.entries(tinderUser));
+//  console.log(tinderUser.hasOwnProperty('email'));
+
+const course={
+    courseName:"javascript",
+    fee:999,
+    techer:"youtube",
+}
+//course.fee
+const{fee}=course
+//console.log(fee);
+const{techer}=course
+const{techer:mentor}=course// desturecture object
+//console.log(techer);
+console.log(mentor);
+{
+    "name":"ankita",
+    "age":23,
+    "fee":"free"
+}
+
  
