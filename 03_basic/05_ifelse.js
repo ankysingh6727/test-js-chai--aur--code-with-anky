@@ -48,10 +48,19 @@ const userLoggedInEmail=false
  }
  const emprtyobject={}
  if (Object.keys(emprtyobject)) {
-    console.log("it is emparty object");
+   // console.log("it is emparty object");
     
     
  }
+
+
+ //Nulish coalscing operater ??: null undefined
+ let val1;
+ //val1=5??10   output 5
+//val1= null??10 output 10
+//val1=undefined??15
+vali=12??undefined??15
+ console.log(val1)
 
 
  
