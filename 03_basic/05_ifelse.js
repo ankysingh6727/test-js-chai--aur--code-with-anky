@@ -36,7 +36,22 @@ const userLoggedInEmail=false
     
     
 // }
+ //fulsy value
+ //false, 0,-0, bigInt 0n, null,undefind,NaN,""
 
+ //turthy
+ //"0","false"," ",[],{},functions(){}
+ const Username=[]
+ if (Username.length===0) {
+    //console.log("it is array")
+    
+ }
+ const emprtyobject={}
+ if (Object.keys(emprtyobject)) {
+    console.log("it is emparty object");
+    
+    
+ }
 
 
  
