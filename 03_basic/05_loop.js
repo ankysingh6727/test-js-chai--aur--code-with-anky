@@ -13,16 +13,57 @@ const temp=40
 //  }
 //   console.log(` score is less then 300 ${power}`)
 const blance=500
-if (blance>900) {
-    console.log("yes blance is less then 1000 and blance is 900")
-}else if(blance>750){
-    console.log("yes blance is less then 1000 and blance is 750")
-}else if(blance==1000){
-    console.log("yes blance is less then 1000 and blance is 900")
+// if (blance>900) {
+//     console.log("900")
+// }else if(blance>750){
+//     console.log("750")
+// }else if(blance===1000){
+//     console.log("1000")
     
-}else{
-    console.log("blance")
-}
+// }else{
+//     console.log("blance")
+//}
+const userloggedIn=true
+ const debitCard= true
+// if (userloggedIn && debitCard) {
+//     console.log("user buy the course");
+    
+// }
+const userLoggedInGoogle= true
+const userLoggedInEmail=false
+// if (userLoggedInGoogle || userLoggedInEmail) {
+//     console.log("user is logged in");
+    
+    
+// }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
  
  
  
